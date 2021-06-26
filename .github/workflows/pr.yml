@@ -12,4 +12,4 @@ jobs:
         with:
           php-version: 8.0
       - run: composer install --prefer-dist --no-progress --no-suggest
-      - run: php artisan phpinsights -n --ansi --format=github-action
+      - run: php artisan insights -n --ansi --format=github-action
